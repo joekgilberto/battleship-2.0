@@ -3,7 +3,17 @@
     height: 50px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    font-size: 20px;
+}
+
+.enemy.Board .Square{
+    align-items: flex-start;
+
+}
+
+.ally.Board .Square{
+    align-items: flex-end;
+
 }
 
 .Square.enemy{

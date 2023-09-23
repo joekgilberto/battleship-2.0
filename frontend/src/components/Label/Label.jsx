@@ -5,7 +5,7 @@ export default function Label({ name }) {
     const splitName = name.split('')
 
   return (
-        <div className={`Label ${name.toLowerCase()}`}>
+        <div className={`Label ${name}`}>
             {splitName.map((char,i)=>{
                 return <p key={i}>{char}</p>
             })}

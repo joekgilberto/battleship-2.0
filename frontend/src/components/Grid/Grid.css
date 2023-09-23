@@ -2,6 +2,11 @@
     margin: 10px;
 }
 
+.grid-border{
+    border: 8px solid #55697d;
+    border-radius: 20px;
+}
+
 .grid-squares{
     border-radius: 12.5px;
 }

@@ -6,8 +6,8 @@ export default function Boards() {
 
   return (
     <div className='Boards'>
-      <Board label="ENEMY" owner="enemy" />
-      <Board label="ALLY" owner="ally" />
+      <Board owner="enemy" />
+      <Board owner="ally" />
     </div>
   );
 }

@@ -1,3 +1,25 @@
 .Board{
     display: flex;
 }
+
+.coordinates-column{
+    font-size: 20px;
+
+}
+
+.coordinates-column>p{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin: 0;
+}
+
+.enemy.coordinates-column{
+    margin-top: 69px;
+}
+
+.ally.coordinates-column{
+    margin-top: 19px;
+}

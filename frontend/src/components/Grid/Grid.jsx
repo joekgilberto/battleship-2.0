@@ -9,6 +9,7 @@ export default function Grid({ owner }) {
     return (
         <div className='Grid'>
             {owner === 'enemy' ? <CoordinatesRow /> : null}
+            <div className='grid-border'>
             <div className={`grid-squares ${owner}`}>
                 <div className='row'>
                     {gridSize.map((grid, i) => {
@@ -21,6 +22,7 @@ export default function Grid({ owner }) {
                         )
                     })}
                 </div>
+            </div>
             </div>
             {owner === 'ally' ? <CoordinatesRow /> : null}
         </div>
