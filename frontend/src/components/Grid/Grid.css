@@ -2,7 +2,18 @@
     margin: 10px;
 }
 
+.grid-squares{
+    border-radius: 12.5px;
+}
+
+.grid-squares.enemy{
+    border: 2px solid #90ee90;
+}
+
+.grid-squares.ally{
+    border: 2px solid #6495ed;
+}
+
 .row{
     display: flex;
-
 }

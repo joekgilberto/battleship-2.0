@@ -6,12 +6,12 @@ export default function CoordinatesRow({ label, owner }) {
 
     return (
         <div className='CoordinatesRow'>
-            <Square text={'A'} />
-            <Square text={'B'} />
-            <Square text={'C'} />
-            <Square text={'D'} />
-            <Square text={'E'} />
-            <Square text={'F'} />
+            <Square owner={'none'} text={'A'} />
+            <Square owner={'none'} text={'B'} />
+            <Square owner={'none'} text={'C'} />
+            <Square owner={'none'} text={'D'} />
+            <Square owner={'none'} text={'E'} />
+            <Square owner={'none'} text={'F'} />
         </div>
     );
 }

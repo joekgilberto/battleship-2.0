@@ -15,3 +15,43 @@
     background-color: #87cefa;
     border: 2px solid #6495ed;
 }
+
+.Square.a.z{
+    border-radius: 10px 0 0 0;
+}
+
+.Square.a.u{
+    border-radius:  0 0 0 10px;
+}
+
+.Square.f.z{
+    border-radius:  0 10px 0 0;
+}
+
+.Square.f.u{
+    border-radius:  0 0 10px 0;
+}
+
+@keyframes shine-enemy {
+    0%{
+        background-color: #228b22;
+    }
+    50%{
+        background-color: #41b441;
+    }
+    100%{
+        background-color: #228b22;
+    }
+}
+
+@keyframes shine-ally {
+    0%{
+        background-color: #87cefa;
+    }
+    50%{
+        background-color: #bce5ff;
+    }
+    100%{
+        background-color: #87cefa;
+    }
+}

@@ -7,7 +7,7 @@ export default function Label({ name }) {
   return (
         <div className={`Label ${name.toLowerCase()}`}>
             {splitName.map((char,i)=>{
-                return <p>{char}</p>
+                return <p key={i}>{char}</p>
             })}
             <p> </p>
             <p>W</p>
