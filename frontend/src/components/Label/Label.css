@@ -1,0 +1,23 @@
+.Label{
+    width: 50px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Label p{
+    height: 12px;
+    font-size: 12px;
+    margin: 5px;
+}
+
+.Label.enemy{
+    margin-top: 50px;
+}
+
+.Label.ally{
+    margin-bottom: 50px;
+}

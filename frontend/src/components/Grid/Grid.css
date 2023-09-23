@@ -1,0 +1,8 @@
+.Grid{
+    margin: 10px;
+}
+
+.row{
+    display: flex;
+
+}
