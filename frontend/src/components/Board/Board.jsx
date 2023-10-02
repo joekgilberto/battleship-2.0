@@ -2,6 +2,7 @@ import './Board.css';
 
 import Label from '../Label/Label';
 import Grid from '../Grid/Grid';
+import Graveyard from '../Graveyard/Graveyard';
 
 export default function Board({ owner }) {
 
@@ -17,6 +18,7 @@ export default function Board({ owner }) {
         <p>6</p>
       </div>
       <Grid owner={owner} />
+      <Graveyard owner={owner==='ally'?'enemy':'ally'}></Graveyard>
     </div>
   );
 }

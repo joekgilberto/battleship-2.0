@@ -5,7 +5,7 @@ import CoordinatesRow from '../CoordinatesRow/CoordinatesRow';
 
 export default function Grid({ owner }) {
 
-    const gridSize = [0, 1, 2, 3, 4, 5]
+    const gridSize = [0,1,2,3,4,5]
     return (
         <div className='Grid'>
             {owner === 'enemy' ? <CoordinatesRow /> : null}
