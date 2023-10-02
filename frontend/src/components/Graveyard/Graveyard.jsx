@@ -10,17 +10,19 @@ export default function Graveyard({ owner }) {
 
   return (
     <div className={`Graveyard ${owner}`}>
-      <h3>{owner}<br/>Grave</h3>
+      <p>{owner}<br/>Grave</p>
+      <div className='grave-border'>
       <div className='grave-squares'>
-        {gridWidth.map((grid, i) => {
+        {gridWidth.map((gridI, i) => {
           return (
             <div key={i} className='column'>
-              {gridHeight.map((grid, j) => {
-                return <Square key={j} owner='grave' row={i} column={j} />
+              {gridHeight.map((gridII, j) => {
+                return <Square key={j} owner={`grave-${owner}`} row={i} column={j} />
               })}
             </div>
           )
         })}
+      </div>
       </div>
     </div>
   );

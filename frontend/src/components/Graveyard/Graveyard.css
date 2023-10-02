@@ -3,27 +3,33 @@
 }
 
 .Graveyard.ally{
-    margin-top: 68px;
+    margin-top: 60px;
 }
 
 .Graveyard.enemy{
-    margin-top: 18px;
+    margin-top: 10px;
 }
 
-.Graveyard h3{
-    width: 104px;
-    height: 54px;
+.Graveyard p{
+    width: 120px;
+    height: 58px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #2f4f4f;
     margin: 0;
     text-align: center;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 .grave-squares{
     display: flex;
     border: 2px solid #ffa500;
     border-radius: 0 0 12.5px 12.5px;
+}
+
+.grave-border{
+    border: 8px solid #55697d;
+    border-top: 0;
+    border-radius:  0 0 20px 20px;
 }

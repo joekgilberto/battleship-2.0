@@ -12,10 +12,10 @@ export default function Grid({ owner }) {
             <div className='grid-border'>
             <div className={`grid-squares ${owner}`}>
                 <div className='row'>
-                    {gridSize.map((grid, i) => {
+                    {gridSize.map((gridI, i) => {
                         return (
                             <div key={i} className='column'>
-                                {gridSize.map((grid, j) => {
+                                {gridSize.map((gridII, j) => {
                                     return <Square key={j} owner={owner} row={i} column={j} />
                                 })}
                             </div>
