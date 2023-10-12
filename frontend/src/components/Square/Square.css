@@ -99,6 +99,17 @@
     border-radius: 0 0 10px 0;
 }
 
+.Square.grave.one.a{
+    border-radius: 0;
+}
+
+.Square.grave.one.e{
+    border-radius: 0 0 0 10px;
+}
+
+.Square.grave.two.e{
+    border-radius: 0 0 10px 0;
+}
 
 
 @keyframes shine-enemy {

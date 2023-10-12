@@ -4,8 +4,8 @@ import Square from '../Square/Square';
 
 export default function Graveyard({ owner }) {
 
-  const gridWidth = [0, 1]
-  const gridHeight = [0, 1, 2, 3, 4]
+  const gridNums = ['one','two']
+  const gridLetters = ['a','b','c','d','e']
 
 
   return (
@@ -13,11 +13,11 @@ export default function Graveyard({ owner }) {
       <p>{owner}<br/>Grave</p>
       <div className='grave-border'>
       <div className='grave-squares'>
-        {gridWidth.map((gridI, i) => {
+        {gridNums.map((num, i) => {
           return (
             <div key={i} className='column'>
-              {gridHeight.map((gridII, j) => {
-                return <Square key={j} owner={`grave-${owner}`} row={i} column={j} />
+              {gridLetters.map((letter, j) => {
+                return <Square key={j} owner={`grave-${owner}`} row={letter} column={num} idx={j} />
               })}
             </div>
           )
