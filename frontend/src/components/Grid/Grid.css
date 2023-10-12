@@ -9,6 +9,11 @@
 
 .grid-squares{
     border-radius: 12.5px;
+    display: grid;
+    grid-column: 1 / span 6;
+    grid-row: 1 / span 6;
+    grid-template-columns: repeat(6, 50px);
+    grid-template-rows: repeat(6, 50px);
 }
 
 .grid-squares.enemy{

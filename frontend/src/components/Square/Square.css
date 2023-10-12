@@ -31,33 +31,74 @@
     border: 2px solid #ffa500;
 }
 
-.Square.a.z{
+.Square.one {
+    grid-row: 1 / span 1;
+}
+
+.Square.two {
+    grid-row: 2 / span 1;
+}
+
+.Square.three {
+    grid-row: 3 / span 1;
+}
+
+.Square.four {
+    grid-row: 4 / span 1;
+}
+
+.Square.five {
+    grid-row: 5 / span 1;
+}
+
+.Square.six {
+    grid-row: 6 / span 1;
+}
+
+.Square.a {
+    grid-column: 1 / span 1;
+}
+
+.Square.b {
+    grid-column: 2 / span 1;
+}
+
+.Square.c {
+    grid-column: 3 / span 1;
+}
+
+.Square.d {
+    grid-column: 4 / span 1;
+}
+
+.Square.e {
+    grid-column: 5 / span 1;
+}
+
+.Square.f {
+    grid-column: 6 / span 1;
+}
+
+.Square.one.a{
     border-radius: 10px 0 0 0;
 }
 
-.Square.a.u{
-    border-radius:  0 0 0 10px;
+.Square.one.f{
+    border-radius: 0 10px 0 0;
 }
 
-.Square.f.z{
-    border-radius:  0 10px 0 0;
+.Square.one.a{
+    border-radius: 10px 0 0 0;
 }
 
-.Square.f.u{
-    border-radius:  0 0 10px 0;
-}
-
-.Square.grave.a.z{
-    border-radius: 0;
-}
-
-.Square.grave.a.v{
+.Square.six.a{
     border-radius: 0 0 0 10px;
 }
 
-.Square.grave.b.v{
+.Square.six.f{
     border-radius: 0 0 10px 0;
 }
+
 
 
 @keyframes shine-enemy {
